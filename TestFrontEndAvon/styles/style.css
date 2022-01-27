@@ -1,0 +1,169 @@
+    @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/* variables */
+    :root {
+        --primary1: #1c3c50;
+        --secondary2: #0099de;
+        --third: #f5523e;
+        --fourth: #ebf0f1;
+        --Facebook: #235796;
+    }
+/* Reset Gerais */
+    body,
+    p,
+    a,
+    ul,
+    li {
+        font-family: "Rubik", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    img, .img-fluid {
+        display: block;
+        height: 100vh;
+        max-width: 100%;
+    }
+    
+/* header e NavBar */
+    .header {
+        background-color: var(--secondary2);
+    }
+    /* NavBar */  
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-height: 105px;
+    }
+ 
+/* Button Redes */
+    .buttonFace {
+        background-color: var(--fourth);
+        border: 2px solid var(--secondary2);
+        color: var(--Facebook);
+        font-weight: bold;
+        padding: 3px 6px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        box-shadow: 1px 2px 3px rgba(--secondary2);
+        width: 100px;
+        height: 45px;
+    }
+    .buttonFace:hover {
+        background-color: var(--secondary2);
+        color: var(--fourth);
+        transition: .2s;
+    }
+    .buttonFace:active {
+        outline: none;
+    }
+    .buttonTwitter {
+        background-color: var(--fourth);
+        border: 2px solid var(--secondary2);
+        color: var(--secondary2);
+        font-weight: bold;
+        padding: 3px 6px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        box-shadow: 1px 2px 3px rgba(--secondary2);
+        width: 100px;
+        height: 45px;
+        margin-left: 30px;
+    }
+    .buttonTwitter:hover {
+        background-color: var(--secondary2);
+        color: var(--fourth);
+        transition: .2s;
+    }
+    .buttonTwitter:active {
+        outline: none;
+    }
+    .social-network {
+        display: none;
+    }
+
+/* Section Skill1 */
+    .skill1 {
+        background-color: var(--fourth);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .divoltis h5 {
+       color: var(--secondary2);
+       text-transform: uppercase;
+       margin-top: 5px;
+    }
+    .divoltis h6 {
+        line-height: 1.5;
+        border-bottom: 1px solid var(--primary1);
+        padding-bottom: 40px;
+    }
+    
+    .badge {
+        background-color: var(--secondary2);
+        width: 16rem;
+    }
+    .bd-highlight {
+        background-color: var(--third);
+        text-transform: uppercase;
+        color: var(--fourth);
+        text-align: center;
+        position: relative;
+        top: -50px;
+        padding: 5px;
+        width: 6rem;
+    }
+    .carousel-caption p {
+        font-size: 1.8rem;
+        color: var(--fourth);
+    }
+    .space-title-one {
+        color: var(--secondary2);
+    }
+    .space-title-two {
+        color: var(--third);
+    }    
+    .space-border {
+        border-bottom-width: 0.2px;
+        border-bottom-style: solid;
+        padding: 15px 0;
+    }
+    .row-cols-lg-4 {
+        padding: 10px;
+    }
+    .row-cols-lg-4 h5 {
+        color: var(--third);
+    }
+   .space-col {
+       padding: 50px 0;
+   }
+   .img-ads img {
+       display: none;
+   }
+/* Footer */   
+    footer {
+        background-color: #14153d;
+        height: 20vh;
+    }
+    .footer-topo {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: right;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: var(--secondary2);
+        color:var(--fourth);
+        height: 30px;
+        padding-right: 120px;
+    }
+    .footer-topo i {
+        margin-left: 10px;
+        align-items: center;
+     }
+    
+    
+    
